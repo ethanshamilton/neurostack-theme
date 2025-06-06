@@ -1,6 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+  "semanticHighlighting": true,
 	"colors": {
 		"activityBar.background": "#000000",
 		"activityBar.foreground": "#ffffff",
@@ -942,7 +943,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#66a1b8"
 			}
 		},
 		{
@@ -1454,7 +1455,16 @@
 				"meta.function-call.arguments.python",
 				"variable.legacy.builtin.python",
 				"support.variable.PN_LOCAL.turtle",
-				"variable"
+				"variable",
+				"meta.jsx.children.js.jsx",
+				"text.html.derivative",
+				"entity.other.attribute-name.class.css",
+				"support.type.property-name.css",
+				"support.type.vendored.property-name.css",
+				"meta.paragraph.markdown",
+				"support.type.property-name.json",
+				"source.json",
+				"meta.structure.dictionary.json"
 			],
 			"settings": {
 				"foreground": "#D0AF91"
@@ -1490,7 +1500,23 @@
 				"punctuation.definition.decorator.python",
 				"punctuation.section.class.begin.python",
 				"punctuation.separator.parameters.python",
-				"punctuation.separator.dict.python"
+				"punctuation.separator.dict.python",
+				"punctuation.definition.tag.begin.js.jsx",
+				"punctuation.definition.tag.end.js.jsx",
+				"entity.name.tag.js.jsx",
+				"punctuation.separator.comma.js.jsx",
+				"punctuation.accessor.js.jsx",
+				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag.begin.html",
+				"entity.name.tag.html",
+				"punctuation.terminator.rule.css",
+				"punctuation.separator.key-value.css",
+				"punctuation.definition.entity.css",
+				"punctuation.definition.keyword.css",
+				"support.type.property-name.media.css",
+				"punctuation.definition.heading.markdown",
+				"entity.name.section.markdown",
+				"markup.heading.markdown",
 			],
 			"settings": {
 				"foreground": "#FF902F"
@@ -1499,7 +1525,9 @@
 		{
 			"scope": [
 				"constant.character.escape.python",
-				"variable.parameter"
+				"variable.parameter",
+				"entity.other.attribute-name.pseudo-class.css",
+				"variable.parameter.keyframe-list.css"
 			],
 			"settings": {
 				"foreground": "#AD66B8"
@@ -1519,7 +1547,15 @@
 				"punctuation.definition.string.begin.json.comments",
 				"support.type.python",
 				"entity.other.inherited-class.python",
-				"constant.other.caps.python"
+				"constant.other.caps.python",
+				"entity.other.attribute-name.js.jsx",
+				"variable.other.property.js.jsx",
+				"entity.other.attribute-name.html",
+				"keyword.control.at-rule.keyframes.css",
+				"keyword.control.at-rule.media.css",
+				"meta.property-value.css",
+				"string.quoted.double.json",
+				"meta.attribute.python"
 			],
 			"settings": {
 				"foreground": "#D08B8B"
@@ -1534,7 +1570,12 @@
 				"string.quoted.multi.python",
 				"string.quoted.double.turtle",
 				"punctuation.definition.string.begin.turtle",
-				"punctuation.definition.string.end.turtle"
+				"punctuation.definition.string.end.turtle",
+				"string.quoted.single.js.jsx",
+				"string.quoted.double.js.jsx",
+				"string.quoted.double.html",
+				"support.constant.property-value.css",
+				"string.quoted.single.css"
 			],
 			"settings": {
 				"foreground": "#66A1B8"
