@@ -1497,7 +1497,10 @@
 				"entity.name.command.shell",
 				"punctuation",
 				"log.constant",
-				"entity.name.decorator"
+				"entity.name.decorator",
+				"punctuation.definition.heading.markdown",
+				"markup.heading.markdown",
+				"heading.3.markdown"
 			],
 			"settings": {
 				"foreground": "#FF902F"
@@ -1549,7 +1552,9 @@
 				"support.constant.property-value.css",
 				"punctuation.definition.string.end",
 				"punctuation.definition.string.begin",
-				"string.quoted"
+				"string.quoted",
+				"string.unquoted",
+				"string.rainbow5"
 			],
 			"settings": {
 				"foreground": "#66A1B8"
