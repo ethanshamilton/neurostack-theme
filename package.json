@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "neurostack",
+        "label": "neurostack-dark",
         "uiTheme": "vs-dark",
         "path": "./themes/neurostack-color-theme.json"
+      },
+      {
+        "label": "neurostack-light",
+        "uiTheme": "vs",
+        "path": "./themes/neurostack-color-theme-light.json"
       }
     ]
   }
