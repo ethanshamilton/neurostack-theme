@@ -929,6 +929,7 @@
 		},
 		{
 			"scope": [
+        "string",
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
@@ -1002,7 +1003,6 @@
 		},
 		{
 			"scope": [
-				"string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -1440,7 +1440,7 @@
 		},
 		{
 			"scope": [
-				"source.python",
+        "source.python",
 				"support.type.property-name.json.comments",
 				"entity.name",
 				"entity.name.type",
@@ -1486,7 +1486,6 @@
 				"keyword.control.exception",
 				"keyword.operator",
 				"storage.type",
-				"variable.language.special.self.python",
 				"variable.parameter.function.language.python",
 				"entity.name.tag.js.jsx",
 				"entity.name.tag.html",
@@ -1510,7 +1509,8 @@
 				"entity.other.attribute-name.pseudo-class.css",
 				"variable.parameter.keyframe-list.css",
 				"constant.other.option",
-				"constant.other.option.dash.shell"
+				"constant.other.option.dash.shell",
+        "variable.age.special.self.python",
 			],
 			"settings": {
 				"foreground": "#AD66B8"
